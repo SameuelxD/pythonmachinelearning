@@ -1,0 +1,20 @@
+# Una tienda de ropa necesita que en su tienda virtual se clasifiquen sus prendas por tipo , es decir camisas , pantalones , zapatos ,etc , necesitan que desarrolles un proyecto el cual solo con la imagen reflejada de la prenda pueda clasificarla en su respectivo tipo
+
+# Regresion vs Clasificacion , el ejercicio anterior era de regresion por que su salida retornaba un numero es decir los calculos de celsius a farenheit retornaba la cifra en dato numerico farenheit , a diferencia clasificacion es como un metodo switch que retornara la entrada en las diferentes categorias o casos 
+
+# Para que la red neuronal permita recibir informacion como una imagen ella hace lo siguiente la imagen la recibe en blanco y negro donde cada cuadrito de la imagen px le asigna un valor de 0 a 255 donde 0 es totalmente negro y 255 para totalmente blanco , la imagen toma cada  pixel lo diferencia segun su color , le asigna un valor entre esta longitud y cada pixel lo agrega a una neurona distinta a la capa de entrada , nosotros reduciremos las imnagenes a 28x28 para que este proceso sea menos tedioso 28x28 tendremos 784 pixeles accediendo a 784 neuronas de la red
+
+# Crearemos una red con 784 neuronas de entrada y 10 neuronas de salida para la clasificacion , el tipo de red neuronal recomendada para este caso es la red neuronal convolucional que se utiliza mucho en la clasificacion de imagenes
+
+# En este caso igual vamos a usar la red neuronal densa para trabajar mejor los conceptos aprendidos con esta red neuronal
+
+# Capas Ocultas , se usan para agregarle mas neuronas a la red es decir pueda realizar mejores calculos y cuenta con mayores variables como peso de conexion y sesgo de conexion para realizar funciones lineales
+
+# Funcion de activacion , es una gran herramienta que su logica es la siguiente para numeros mayores a 0 mantiene su valor pero para numero negativos menores que 0 los convierte automaticamente en 0 , ejemplo si recibe 15 su valor va a seguir siendo 15 , pero si recibe -15 su valor cambiara a 0 , esta funcionalidad es crucial para que la red neuronal pueda realizar otro tipos de funciones diferentes a las lineales
+
+# La normalizacion de datos en una red neuronal , hacer que todas las entradas sean numeros entre 0 y 1  eso ayuda  mucho para acelerar el entrenamiento y mejorar los resultados
+
+# Red Neuronal Convolucional , el clasificador de imagenes funcionando con una red neuronal tipo densa lo que va a tratar de hacer es aprenderse en cada cuadrito de pixel separado su valor numerico respecto al tono de color al hacer esto va a comparar las imagenes reedimensionadas 28x28 que ya tiene y respecto a ello va determinar el porcentaje de prediccion , la red neurona convolucional si va a analisar la imagen completa y hasta determinara sus ejes 
+
+# Capa de convolucion y Capa de agrupacion , Extraccion de caracteristicas ,
+# capa de agrupacion reducir el tamaño de la imagen y resaltar las caracteristicas mas importantes , con la capa de convulcion extrae patrones , ejes ,figuras , formas y objetos despues de qie la capa de agrupacion trabaje
