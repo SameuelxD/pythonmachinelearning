@@ -20,3 +20,7 @@
 
 # Capa de convolucion y Capa de agrupacion , Extraccion de caracteristicas ,
 # capa de agrupacion reducir el tamaño de la imagen y resaltar las caracteristicas mas importantes , con la capa de convulcion extrae patrones , ejes ,figuras , formas y objetos despues de qie la capa de agrupacion trabaje , entre mas capas de convolucion y de agrupacion hallan podremos extraer patrones , caracteristicas e identificar con mejor precision los ejes en una imagen 
+
+# Aumento de datos , Data Augmentation , basado en el set de datos que ya tenemos generar nuevas imagenes con diversas transformaciones de manera que nuestro set quede con imagenes mas variables , podemos agregar rotaciones, cambios de posicion de tamaño , etc , esto nos ayuda a que la red tenga mas variedad y sea mas robusta
+
+# Dropout , lo que hace es aleatoriamente apagar algunas neuronas de manera que las que queden encendidas en la red cargen con mas peso haciendo esto la red mas funcional y eficaz 
