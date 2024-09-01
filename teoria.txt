@@ -20,3 +20,21 @@
 
 # Capa de convolucion y Capa de agrupacion , Extraccion de caracteristicas ,
 # capa de agrupacion reducir el tamaño de la imagen y resaltar las caracteristicas mas importantes , con la capa de convulcion extrae patrones , ejes ,figuras , formas y objetos despues de qie la capa de agrupacion trabaje , entre mas capas de convolucion y de agrupacion hallan podremos extraer patrones , caracteristicas e identificar con mejor precision los ejes en una imagen 
+
+# Aumento de datos , Data Augmentation , basado en el set de datos que ya tenemos generar nuevas imagenes con diversas transformaciones de manera que nuestro set quede con imagenes mas variables , podemos agregar rotaciones, cambios de posicion de tamaño , etc , esto nos ayuda a que la red tenga mas variedad y sea mas robusta
+
+# Dropout , lo que hace es aleatoriamente apagar algunas neuronas de manera que las que queden encendidas en la red cargen con mas peso haciendo esto la red mas funcional y eficaz 
+
+# Como preparar e previsualizar los parametros que necesite una red neuronal segun los requerimientos pedidos para la aplicacion
+
+# 1. Datos de entrenamiento, primero para desarrollar correctamente una red y su estructura necesitamos considerar su entrenamiento , machine learnig para que la maquina pueda mejorar y desarrollar en la mejor condicion posible su aprendizaje , para ello los inputs o informacion que vamos a suministrarle a la maquina tienen suma importancia por que esta es parte fundamental para que la red tenga un resultado exitoso.
+
+# 2. Arquitectura Hiperparametros, teniendo en cuenta el tipo de datos que recibe la red y obvio el tipo de informacion que necesitamos que devuelva, consideramos que tipo de red neuronal es la mas adecuada para recibir , procesar , entrenar , aprender y retornar la informacion correctamente , definir su arquitectura e hiperparametros que vamos a usar , red densa , red convolucional , otro tipo , cuantas capas voy a usar , cuantas neuronas en cada capa , voy a usar tecnicas adicionales 
+
+# 3. Exportacion , necesitamos saber como podemos exportar nuestro modelo a un formato en que podamos poner en un sitio web
+
+# 4. Diseño Web, crear la pagina HTML con sus estilos para que sea funcional con nuestro modelo
+
+# 5. Publicar pagina , para poder ver nuestro proyecto final en cualquier dispositivo
+
+Para ariqutectura de hiperparametros vamos a usar tres modelos con aumento de datos y tres modelos sin aumentos de datos , modelos de las diferentes redes neuronales que vamos a estar haciendo para aplicar el entrenamiento y el machine learning
